@@ -56,6 +56,7 @@ public class NetClientHttpRequest implements Runnable {
                 return;
 
 
+
             } catch (Exception e) {
                 if (requestExecutionTime < HttpClientConstants.DEFAULT_RETRY_TIMES) {
                     requestExecutionTime++;
