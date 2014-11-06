@@ -2,6 +2,7 @@ package com.zxs.netclient;
 
 import android.net.http.AndroidHttpClient;
 
+import org.apache.http.client.HttpClient;
 import org.apache.http.conn.scheme.PlainSocketFactory;
 import org.apache.http.conn.scheme.Scheme;
 import org.apache.http.conn.scheme.SchemeRegistry;
@@ -14,7 +15,7 @@ public class TaskHttpClient {
 
 
 
-    private AndroidHttpClient httpClient;
+    private HttpClient httpClient;
     /**
      * 默认构造方法
      * */
